@@ -136,12 +136,10 @@ public class MainActivity extends AppCompatActivity {
             // Handle the case where the cursor is null
             Log.e("ContactSync", "Cursor is null.");
         }
-
-        // Perform the contact synchronization process here
+        // Perform the contact synchronization process here....
         // This is where you can save or send contact data to your server, for example
         // Implement your synchronization logic based on your app's requirements
     }
-
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
