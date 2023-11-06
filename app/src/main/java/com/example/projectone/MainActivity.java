@@ -137,8 +137,6 @@ public class MainActivity extends AppCompatActivity {
             Log.e("ContactSync", "Cursor is null.");
         }
 
-
-
         // Perform the contact synchronization process here
         // This is where you can save or send contact data to your server, for example
         // Implement your synchronization logic based on your app's requirements
